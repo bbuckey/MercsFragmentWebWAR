@@ -52,11 +52,13 @@
         <td>${player.cash}</td>
         <td>${player.lastCashTime}</td>
         <td><a href="player/delete/${player.id}">delete</a></td>
+        <td><a href="player/merc/${player.id}">add Merc</a>  
     </tr>
 </c:forEach>
 </table>
 </c:if>
   
+  <br></br>
   <td><a href="">Home</a></td>
   
 </body>

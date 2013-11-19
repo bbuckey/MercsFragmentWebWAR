@@ -22,7 +22,7 @@
  </servlet>
  <servlet-mapping>
   <servlet-name>merc</servlet-name>
-  <url-pattern>/merc</url-pattern>
+  <url-pattern>/</url-pattern>
  </servlet-mapping>
  <servlet-mapping>
   <servlet-name>player</servlet-name>
