@@ -54,6 +54,28 @@
 </c:if>
 
 
+<h3> Player Mercenarys</h3>
+<c:if  test="${!empty playerMercList}">
+<table class="data">
+<tr>
+    <th>Mercenary Name</th>
+    <th>Hit Points</th>
+    <th>Attack</th>
+    <th>Defense</th>
+    <th>Action</th>
+</tr>
+<c:forEach items="${playerMercList}" var="playermerc">
+    <tr>
+        <td>${playermerc.mercName}</td>
+        <td>${playermerc.hp}</td>
+        <td>${playermerc.atk}</td>
+        <td>${playermerc.def}</td>
+    </tr>
+</c:forEach>
+</table>
+</c:if>
+
+
   <br></br>
   <td><a href="">Home</a></td>
 </form:form>  
