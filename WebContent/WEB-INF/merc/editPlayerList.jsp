@@ -3,7 +3,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
-<title>Player List And Addtion Page</title>
+<title>Player List Page</title>
 </head>
 <body>
 <h2>Player Mangement Screen:</h2>

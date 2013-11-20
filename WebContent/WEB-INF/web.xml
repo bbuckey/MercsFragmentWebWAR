@@ -15,18 +15,9 @@
   <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   <load-on-startup>1</load-on-startup>
  </servlet>
- <servlet>
-  <servlet-name>player</servlet-name>
-  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-  <load-on-startup>1</load-on-startup>
- </servlet>
  <servlet-mapping>
   <servlet-name>merc</servlet-name>
   <url-pattern>/</url-pattern>
- </servlet-mapping>
- <servlet-mapping>
-  <servlet-name>player</servlet-name>
-  <url-pattern>/player</url-pattern>
  </servlet-mapping>
  <welcome-file-list>
   <welcome-file>/WEB-INF/index.jsp</welcome-file>

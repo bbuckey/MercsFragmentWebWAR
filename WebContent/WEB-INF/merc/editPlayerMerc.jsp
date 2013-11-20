@@ -3,7 +3,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
-<title> Add Merc</title>
+<title>Player's Mercs</title>
 </head>
 <body>
 <h2>Player Merc Mangement Screen:</h2>
@@ -62,7 +62,7 @@
     <th>Hit Points</th>
     <th>Attack</th>
     <th>Defense</th>
-    <th>Action</th>
+     <th>Action</th>
 </tr>
 <c:forEach items="${playerMercList}" var="playermerc">
     <tr>
@@ -70,14 +70,14 @@
         <td>${playermerc.hp}</td>
         <td>${playermerc.atk}</td>
         <td>${playermerc.def}</td>
+        <td><a href="delete/${player.id}/${playermerc.id}">delete</a></td>
     </tr>
 </c:forEach>
 </table>
 </c:if>
 
-
-  <br></br>
-  <td><a href="">Home</a></td>
 </form:form>  
+  <br></br>
+  <td><a href="../../">Home</a></td>
 </body>
 </html>
