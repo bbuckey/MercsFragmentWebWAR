@@ -9,7 +9,6 @@
 <body>
 
 <script type="text/javascript">
-
 </script>
 <h2>Merc's Links</h2>
 <form:form action="player" method="get">
